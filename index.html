@@ -1,18 +1,46 @@
-<!DOCTYPE html>
-
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<title>HTML 5 DOC</title>
+	<style>
+		body,html {padding: 0; margin: 0}
+		header h1 {text-align: center;
+		font-family: arial, helvetica;
+		font-size: 30px;
+		}
+
+		header {background-color: #878787;
+			color: #fff; padding: 20px 40px; width: 100%; box-sizing: border-box;}
+
+		nav {background-color: #AD3DCB; padding: 15px 0;}
+		nav a {color: #fff; font-size: 19px; text-decoration: none}
+		nav ul {list-style-type: none;}
+		nav ul li {display: inline-block;}
+	</style>
 </head>
-
 <body>
-
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
-
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
-
+	<header>
+		<h1>Header</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>
+				<a href="#">Home</a>>
+			</li>
+			<li>
+				<a href="#">Our Team</a>>
+			</li>
+			<li>
+				<a href="#">Projects</a>>
+			</li>
+			<li>
+				<a href="#">Contact</a>>
+			</li>
+			<form>
+				<input type="text" name="search">
+				<input type="submit" value="Search">
+			</form>			
+		</ul>
+	</nav>
 </body>
 </html>
